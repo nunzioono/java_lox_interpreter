@@ -4,11 +4,12 @@ Lox is a scripting language written for learning purposes, it is interpreted and
 
 ## Installation
 
-Install Java8 then clone and compile it:
+Install Java8, then clone this repo and change directory to it and compile it:
 
-`javac .`
+`javac com/craftinginterpreters/lox/*.java`
 
+Ensure you have produced *.class files.
 You can run file scripts or passing commands in Lox using:
 
-`java lox name_of_your_script_file_or_lox_code`
+`java com.craftinginterpreters.lox.Lox`
 
